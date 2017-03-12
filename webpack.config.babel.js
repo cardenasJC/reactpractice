@@ -60,7 +60,7 @@ export default {
      * Webpack Dev Server
      */
     devServer: {
-        port: 5555,
+        port: 3333,
         contentBase: path.resolve(__dirname, 'dist'),
         compress: true,
         stats: 'errors-only'

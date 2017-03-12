@@ -1,0 +1,45 @@
+{
+  "name": "CPOD-React-Scaffold",
+  "version": "1.0.0",
+  "description": "A React Scaffold to get teammates up and running faster than ever.",
+  "main": "webpack.config.babel.js",
+  "dependencies": {
+    "react-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-register": "^6.23.0",
+    "css": "^2.2.1",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "node-sass": "^4.5.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline -d --history-api-fallback --progress",
+    "build": "webpack --env.production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChinesePod/CPOD-React-Scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChinesePod/CPOD-React-Scaffold/issues"
+  },
+  "homepage": "https://github.com/ChinesePod/CPOD-React-Scaffold#readme"
+}

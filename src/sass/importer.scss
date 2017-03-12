@@ -1,0 +1,31 @@
+/**
+ * Making use of BEM and ITCSS methodologies throughout this project.
+ *
+ * Settings   - Global variables, config switches
+ * Tools      - Mixins / functions
+ * Generic    - Resets such as box-sizing, normalize etc
+ * Base       - Unclassed HTML elements
+ * Objects    - Cosmetic-free
+ * Components - Designed components, chunks of UI
+ * Utilities  - Helpers, overrides (only place that allows use of !important)
+ *
+ * Structure specificity and order
+ * ------------- Settings
+ * ----------- Tools
+ * --------- Generic
+ * ------- Base
+ * ----- Objects
+ * --- Components
+ * - Utilities
+ */
+
+/*Settings*/
+@import 'settings.colors';
+
+/*Base*/
+@import 'base.html-body';
+
+/*Components*/
+@import 'components.nav-header';
+@import 'components.sidebar';
+

@@ -1,9 +1,10 @@
 {
-  "name": "CPOD-React-Scaffold",
+  "name": "reactpractice",
   "version": "1.0.0",
-  "description": "A React Scaffold to get teammates up and running faster than ever.",
+  "description": "React practice.",
   "main": "webpack.config.babel.js",
   "dependencies": {
+    "history": "^4.6.0",
     "react-router": "^4.0.0"
   },
   "devDependencies": {
@@ -33,13 +34,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChinesePod/CPOD-React-Scaffold.git"
+    "url": "git+https://github.com/cardenasJC/reactpractice.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChinesePod/CPOD-React-Scaffold/issues"
+    "url": "https://github.com/cardenasJC/reactpractice/issues"
   },
-  "homepage": "https://github.com/ChinesePod/CPOD-React-Scaffold#readme"
+  "homepage": "https://github.com/cardenasJC/reactpractice.md"
 }

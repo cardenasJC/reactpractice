@@ -12,8 +12,8 @@ class MainLayout extends React.Component {
         <aside className="primary-aside">
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/newbie">Newbie</Link></li>
-            <li><Link to="/elementary">Elementary</Link></li>
+            <li><Link to="newbie">Newbie</Link></li>
+            <li><Link to="elementary">Elementary</Link></li>
           </ul>
         </aside>
         <main>

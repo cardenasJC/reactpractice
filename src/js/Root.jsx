@@ -1,6 +1,6 @@
 // external
 import React from 'react';
-import { Router, Route, IndexRoute, browserHistory, Link } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 // internal
 import MainLayout from 'components/MainLayout';
@@ -12,7 +12,7 @@ class Root extends React.Component {
 
     render() {
         return (
-		    <Router history={browserHistory}>
+		  <Router history={browserHistory}>
 		    <Route path="/" component={MainLayout}>
 		        <IndexRoute component={Home} />
 		        <Route path="newbie" component={Newbie} />
